@@ -1,0 +1,20 @@
+// Sizing shortcuts
+
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin square($size) {
+  @include size($size, $size);
+}
+@mixin soc-size () {
+	display: inline-block;
+	color:#fff;
+	font-size: 15px;
+	padding:10px 5px 10px 5px;
+	&:hover {
+		color:#000;
+		text-decoration: none;
+	}
+}

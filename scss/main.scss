@@ -1,0 +1,12 @@
+@import 'normalize.scss';
+@import '_bootstrap.scss';
+@import '_header.scss';
+@import "_variables";
+@import '_icomoon.scss';
+@import '_content.scss';
+@import '_content-small.scss';
+
+.wrapper {
+	margin:0 auto;
+	max-width: 1200px;
+}
